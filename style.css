@@ -1,0 +1,504 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.div-res{
+  font-size: 0.80em;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+.navbar-brand {
+font-family: 'Cinzel Decorative', cursive;
+ position: relative;
+ right:-100px;
+ margin-top:20px;
+}
+
+.logo {
+  width: 100px;
+  height: 70px;
+  position: absolute;
+  left: 10px;
+
+}
+
+form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #212529;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background:#212529;
+    color: white;
+}
+
+.fa-facebook-square{
+  color: #ffffff;
+}
+
+.fa-instagram-square{
+  color: #ffffff;
+}
+
+.fa-twitter-square{
+  color: #ffffff;
+}
+
+.facebook{
+ position:absolute;
+  right:330px;
+  top:6px;
+}
+
+.instagram{
+ position:absolute;
+  right:300px;
+  top:6px;
+}
+
+.twitter{
+ position:absolute;
+  right:270px;
+  top:6px;
+}
+
+
+#pieddepage{
+  position:absolute;
+  bottom:-2180px;
+}
+
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  padding: .5px;
+  border-radius: 8px;
+  justify-content: center;
+  background: #212529;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.judyn {
+  margin-left: 150px;
+  position: absolute;
+  top:190px;
+}
+
+.wandas {
+  margin-left:500px;
+  position: absolute;
+  top:190px;
+}
+
+.ratchedc {
+  margin-left:850px;
+  position: absolute;
+  top:190px;
+}
+
+.ruej {
+  margin-left: 150px;
+  position: absolute;
+  top:590px;
+}
+
+.ianc {
+  margin-left:500px;
+  position: absolute;
+  top:590px;
+}
+
+.howardh {
+  margin-left:850px;
+  position: absolute;
+  top:590px;
+}
+
+.cassiet {
+  margin-left: 150px;
+  position: absolute;
+  top:990px;
+}
+
+.janeb {
+  margin-left:500px;
+  position: absolute;
+  top:990px;
+}
+
+.maddyd {
+  margin-left:850px;
+  position: absolute;
+  top:990px;
+}
+
+.joeyj {
+  margin-left: 150px;
+  position: absolute;
+  top:1400px;
+}
+
+.veed {
+  margin-left:500px;
+  position: absolute;
+  top:1400px;
+}
+
+.nates {
+  margin-left:850px;
+  position: absolute;
+  top:1400px;
+}
+
+.minj {
+  margin-left: 150px;
+  position: absolute;
+  top:1800px;
+}
+
+.leilat {
+  margin-left:500px;
+  position: absolute;
+  top:1800px;
+}
+
+.allyt{
+  margin-left:850px;
+  position: absolute;
+  top:1800px;
+}
+
+.mact {
+  margin-left: 150px;
+  position: absolute;
+  top:2200px;
+}
+
+.elioc {
+  margin-left:500px;
+  position: absolute;
+  top:2200px;
+}
+
+.vanyas{
+  margin-left:850px;
+  position: absolute;
+  top:2200px;
+}
+
+#judyne {
+  margin-left: 370px;
+  position: absolute;
+  top:520px;
+}
+
+.p1{
+  margin-left: 150px;
+  position: absolute;
+  top:490px;
+  font-weight: bold;
+}
+
+#wandasi {
+  margin-left: 730px;
+  position: absolute;
+  top:520px;
+}
+
+.p2{
+  margin-left:500px;
+  position: absolute;
+  top:490px;
+  font-weight: bold;
+}
+
+#ratchedr {
+  margin-left: 1080px;
+  position: absolute;
+  top:520px;
+}
+
+.p3{
+  margin-left:850px;
+  position: absolute;
+  top:490px;
+  font-weight: bold;
+}
+
+#rueja {
+  margin-left: 370px;
+  position: absolute;
+  top:920px;
+}
+
+.p4{
+  margin-left:150px;
+  position: absolute;
+  top:890px;
+  font-weight: bold;
+}
+
+#iancr {
+  margin-left: 730px;
+  position: absolute;
+  top:920px;
+}
+
+.p5{
+  margin-left:500px;
+  position: absolute;
+  top:890px;
+  font-weight: bold;
+}
+
+#howardca {
+  margin-left: 1080px;
+  position: absolute;
+  top:920px;
+}
+
+.p6{
+  margin-left:850px;
+  position: absolute;
+  top:890px;
+  font-weight: bold;
+}
+
+#casseysi {
+  margin-left: 370px;
+  position: absolute;
+  top:1330px;
+}
+
+.p7{
+  margin-left:150px;
+  position: absolute;
+  top:1290px;
+  font-weight: bold;
+}
+
+#janeba {
+  margin-left: 730px;
+  position: absolute;
+  top:1330px;
+}
+
+.p8{
+  margin-left:500px;
+  position: absolute;
+  top:1290px;
+  font-weight: bold;
+}
+
+#maddydr {
+  margin-left: 1080px;
+  position: absolute;
+  top:1330px;
+}
+
+.p9{
+  margin-left:850px;
+  position: absolute;
+  top:1290px;
+  font-weight: bold;
+}
+
+#joeyja {
+  margin-left: 370px;
+  position: absolute;
+  top:1730px;
+}
+
+.p10{
+  margin-left:150px;
+  position: absolute;
+  top:1700px;
+  font-weight: bold;
+}
+
+#veedr{
+  margin-left: 730px;
+  position: absolute;
+  top:1730px;
+}
+
+.p11{
+  margin-left:500px;
+  position: absolute;
+  top:1700px;
+  font-weight: bold;
+}
+
+#natesw{
+  margin-left: 1080px;
+  position: absolute;
+  top:1730px;
+}
+
+.p12{
+  margin-left:850px;
+  position: absolute;
+  top:1700px;
+  font-weight: bold;
+}
+
+
+#seoja {
+  margin-left: 370px;
+  position: absolute;
+  top:2130px;
+}
+
+.p13{
+  margin-left:150px;
+  position: absolute;
+  top:2100px;
+  font-weight: bold;
+}
+
+#leilato{
+  margin-left: 730px;
+  position: absolute;
+  top:2130px;
+}
+
+.p14{
+  margin-left:500px;
+  position: absolute;
+  top:2100px;
+  font-weight: bold;
+}
+
+#allysi{
+  margin-left: 1080px;
+  position: absolute;
+  top:2130px;
+}
+
+.p15{
+  margin-left:850px;
+  position: absolute;
+  top:2100px;
+  font-weight: bold;
+}
+
+#macsi{
+  margin-left: 370px;
+  position: absolute;
+  top:2530px;
+}
+
+.p16{
+  margin-left:150px;
+  position: absolute;
+  top:2500px;
+  font-weight: bold;
+}
+
+#eliotsi{
+  margin-left: 730px;
+  position: absolute;
+  top:2530px;
+}
+
+.p17{
+  margin-left:500px;
+  position: absolute;
+  top:2500px;
+  font-weight: bold;
+}
+
+#vanyash{
+  margin-left: 1080px;
+  position: absolute;
+  top:2545px;
+}
+
+.p18{
+  margin-left:850px;
+  position: absolute;
+  top:2500px;
+  font-weight: bold;
+}
+
+p{
+font-family: 'Montserrat', sans-serif;
+text-decoration: underline;
+}
+
+
+.page {
+  position: absolute;
+  bottom:-2040px;
+  left:510px;
+}
